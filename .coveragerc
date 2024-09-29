@@ -1,0 +1,11 @@
+[run]
+source =
+    ml_viz
+[report]
+omit =
+    #versioning
+    .*version.*
+    *_version.py
+    #tests
+    *test*
+    ml_viz/tests/*
